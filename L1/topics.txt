@@ -1,7 +1,7 @@
 L1 Topics:-
 ---------
-1.
-2.
+1.HTML5 Semantics
+2.CSS3
 3.
 4.
 5.
@@ -10,8 +10,8 @@ From Team:-
 ---------
 6. 
 
-Split-up
+Category
 --------
-1, 2 - Generic
-3, 4 - Intermediate
-5 - Advanced
+Generic
+Intermediate
+Advanced
