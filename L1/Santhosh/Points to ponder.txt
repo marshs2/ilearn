@@ -1,0 +1,34 @@
+Local and session storage
+
+when does a project decide to use local/session storage
+	1. non db applications that need to communicate with separte pages
+	2. non PCI data
+	3. non SPA application: in case of SPA factories, service take responsiblity
+
+how to use?
+	decide on the format
+	separation of concerns
+	no interdependency...its not db..u cant have foreign keys
+
+Bottlenecks for storage
+	non formats only string...so use JSON.parse and stringify..oruse thirdparty
+	cookie/storage decision
+	PCI compliance
+	
+
+
+Challenges
+	1. Encryption of Data
+	2. global storage for session
+	3. format of session storage
+	4. application driven entirely by storage
+
+Practical examples
+Angular2
+	ng2-storage
+	angular2-localstorage
+AngularJS
+	ng-storage
+
+Vanilla Javascript
+
