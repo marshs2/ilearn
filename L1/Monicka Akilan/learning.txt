@@ -1,0 +1,53 @@
+Requirement:
+A application working in all type of screen size devices, which shoi=uld allow to get user location...
+API: .......
+
+Javascript API to get a person's particular location(Latitude and Logitude), W3c Geo Location API
+
+W3C - Recommend some standards to Browser Manufacturers like (Google for Chrome)
+https://dev.w3.org/geo/api/spec-source.html
+
+They are recommend..........
+
+void getCurrentPosition(PositionCallback successCallback,                       
+optional PositionErrorCallback errorCallback,                            
+optional PositionOptions options);
+
+current position returns coordinates, timestamps
+
+Coordinates return mandatory variable without question marks, 
+if question marks present then its optional...
+
+We can send the coordinates to google map and i can able to show my location using google map API.
+I have to get the key given by Google map API and integrate that with my code for authentication.
+
+AIzaSyDOpba_BEyWODL-sVzKYxibeJJBmhEVGN4
+
+Current locaion is the location 
+We can get location based on the browser compatablity
+asynchronous js.
+
+asynchronous - beacause the website does not 
+successCallback
+errorCallback
+progress errorCallback
+
+Geolocation:
+
+user acceptance feature (cant code as mandatory as HTML5 geolocation)
+Third party web services for mandatory
+
+practical:
+geolocation should be global scope
+check availablity for all browser 
+
+modernizr
+
+challenges...
+bipass user acceptance
+customized Geolocation popup for guest user and nothing for logged user
+
+Reference Site:
+https://developer.mozilla.org/en-US/docs/Web/API/Geolocation/Using_geolocation
+
+
