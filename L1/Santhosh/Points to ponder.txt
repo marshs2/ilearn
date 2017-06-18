@@ -32,3 +32,4 @@ AngularJS
 
 Vanilla Javascript
 
+	https://www.sitepoint.com/9-javascript-libraries-working-with-local-storage/
