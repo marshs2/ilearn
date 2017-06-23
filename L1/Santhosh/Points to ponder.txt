@@ -33,3 +33,29 @@ AngularJS
 Vanilla Javascript
 
 	https://www.sitepoint.com/9-javascript-libraries-working-with-local-storage/
+
+
+Geolocation
+	Asynchronous javascript with success and error function. Option progress function
+
+	who needs geolocation?
+		user acceptance feature
+
+		alternative is web servie with ip address
+
+	Challenges
+		by-pass user acceptance
+		customization of user acceptance popup
+
+	practical 
+		global call function
+		check availability (gaurding function, modernizr)
+	bottleneck
+		will not work for insecure sites..navigator will throw error
+
+	Reference for Geolocations: 
+		1. https://developer.mozilla.org/en-US/docs/Web/API/Geolocation/Using_geolocation
+
+	cool apps with geolocation
+		http://www.glympse.com/
+		
