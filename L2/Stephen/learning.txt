@@ -1,0 +1,49 @@
+JS API - Asynchronous
+Global Scope only should call this.. Each module should not be calling the GeoLocation
+
+navigator.appName to check the browser detail
+
+
+
+
+Chats:-
+Younot able to hear
+12:43Santhosh Guganone moment checking it
+12:43Santhosh Guganhi guys
+12:53Santhosh Guganable to hear me
+12:53Youyes 
+12:53monicka akilanYes santhosh
+12:53Santhosh GuganI am not able to :)
+12:53monicka akilanHi santhosh
+12:55monicka akilanyou said something like browser location 
+12:56monicka akilani cant understand 
+12:56Santhosh Guganyeah
+12:56monicka akilanwhether its getting browser location
+12:56monicka akilanor spmething else...
+12:56Santhosh GuganBrowser runs on the device which can be laptop/mobile or desktop
+12:56monicka akilank
+12:56Santhosh Guganthe browser compatibility affects the working of HTML5 apis like geolocation
+12:57monicka akilanWhat location exactly geolocation gets???
+12:57Santhosh Gugandid that answeryour ques?
+12:57monicka akilanour device location, service provicer location, browser location...
+12:57Santhosh Gugangeolocation gets the location of the browser where it runs
+12:57monicka akilanbut browser location and device location are same
+12:57Santhosh Guganif your mobile and laptop runs the same script , there will be different outputs
+12:58monicka akilanyeah... got ir
+12:58monicka akilanstephen explained
+12:58monicka akilanme imsunderstood
+12:58Santhosh Guganany doubts?
+13:00monicka akilanNo santhosh
+13:00monicka akilanyes
+13:01YouContinue Santhosh
+13:02monicka akilanany example for third party web services
+13:19monicka akilanfor mandatory geo location
+13:20Youany 3rd party API U know whch allows Geolocation
+13:20You?
+13:20Santhosh Guganhttps://modernizr.com/
+13:30Santhosh Guganhttps://browserleaks.com/features
+13:36monicka akilanyes
+13:40monicka akilanSure...
+13:43monicka akilanstephen is busy in a call santhosh
+13:45Santhosh Guganhttps://developer.mozilla.org/en-US/docs/Web/API/Geolocation/Using_geolocation
+Santhosh Guganhttp://www.glympse.com/
