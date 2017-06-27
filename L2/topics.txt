@@ -1,0 +1,17 @@
+L2 Topics:-
+---------
+1.Angular2 Basics
+	Basic Template
+	ngFor
+	Data Model
+	
+
+From Team:-
+---------
+6. 
+
+Category
+--------
+Generic
+Intermediate
+Advanced

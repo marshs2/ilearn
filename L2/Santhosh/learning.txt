@@ -1,0 +1,1 @@
+1. Annotations are the important part of Angular2.

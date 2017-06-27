@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+        
+<style>
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 100%;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+    </head>
+<body>
+
+
+
+<button onclick="getMyLocation();">Get Cur Location</button>
+<div id="map"></div>
+ 
+        <script>
+                
+                    
+            var map, infoWindow;
+                function initMap() {
+                     var lat, long;
+                navigator.geolocation.getCurrentPosition(function(position){
+                    lat=position.coords.latitude;
+                    long=position.coords.longitude;
+
+                    map = new google.maps.Map(document.getElementById('map'), {
+                    center: {lat: lat, lng: long},
+                    zoom: 16
+                    });
+                    infoWindow = new google.maps.InfoWindow;
+
+               
+                   
+                    var pos = {
+                                lat: position.coords.latitude,
+                                lng: position.coords.longitude
+                                };
+
+                                infoWindow.setPosition(pos);
+                                infoWindow.setContent('Location found.');
+                                infoWindow.open(map);
+                                map.setCenter(pos);
+                               
+                                });
+
+                                 }
+            
+        </script>
+           <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDOpba_BEyWODL-sVzKYxibeJJBmhEVGN4"></script>
+   
+</body>
+</html>
