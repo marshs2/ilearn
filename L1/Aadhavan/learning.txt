@@ -1,0 +1,56 @@
+Geolocation
+
+* W3C recommends browsers manufactures to maintain some standards
+
+* Geolocation -> Find User Location
+
+* Geolocation have 3 methods
+	getCurrentPosition
+	watchPosition
+	clearWatch
+
+* Callback is a function when success or error it call the particular function
+
+* Success have cords and timestamps
+
+Geolocation
+? -> optional
+
+* Map display using latitude and longitude then use google geolocation api
+
+* Need the private key
+
+* Use the map id in div class to display map in html page
+* Normally the zoom level 16 represents street view 
+
+* Need to Check
+	Browser support
+	Geolocation depends upon browser compatability
+
+* Geolocation is Asynchronous javascript
+
+* By default all website fetch the geolocation function at first priority. So, this must be asynchronous
+
+* Who needs the geolocation?
+	Accepetance Future
+	Alternative in web future
+
+* Where to Use?
+	1. Geolocation function must be in Global Script
+	    Modules who need the geo function call the function
+	2. Geolocation depends compatible in browsers. So, we have to check it is working or not
+	    Ex: if(navigator.appName ==""){//Not working}
+---------------------------------------------------------------------------
+* Mordenizer
+	mordenizer.navigator -> To check whether the browser is supporting geo or not
+	Better to use the mordenizer
+	This is not work in unsecure site
+---------------------------------------------------------------------------
+Challenges
+
+1.By pass user acceptance
+	Without Showing notification get the user location
+
+2.Customization of user acceptance popup
+	If guest user -> Customized
+	If Login user -> Not ask allow or block geolocation
