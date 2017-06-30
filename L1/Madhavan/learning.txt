@@ -1,22 +1,29 @@
-Geo Location is used to find user location
-Geolocation Depends upon browser compatibility
-It is an Asynchronous Java Script because Default all website have geolocation fetch at first.	
-It shows in Navigator object in browser 
-It has three functions: Get Current Position, Watch Position, Clear Watch
-Call Back is a Function - Success or Error it call Particular Call Back
-In Success Position - Coordinates, Timestamps
-in that ? Fields are Optional
-Map displays using lattitude and longitude using Google Geolocation API
-Displays Map using Private Key
-Map ID in div class to display map in page 
-Zoom level - 16 for Street View
+Geo Loaction - 18-06-2017
+************************************************************************
+W3C  - Browsers Manufactures
+************************************************************************
+###Geo Location is used to find user location
+###Geolocation Depends upon browser compatibility
+###It is an Asynchronous Java Script because Default all website have geolocation fetch at first.	
+###It shows in Navigator object in browser 
+	It has three functions: Get Current Position, Watch Position, Clear Watch
+###Call Back is a Function - Success or Error it call Particular Call Back
+	In Success Position - Coordinates, Timestamps
+	in that ? Fields are Optional
+************************************************************************
+###Map displays using lattitude and longitude using Google Geolocation API
+###Displays Map using Private Key
+	Map ID in div class to display map in page 
+	Zoom level - 16 for Street View
+************************************************************************
 Usage: Acceptance Future, Alternative in webservices
-
+************************************************************************
 Geolocation Mandatory
 1. Geolocation Function in Global Script
     From Modules call that Funcion
 2. Geolocation Compatible in browsers
     Ex:- if(navigator.appName=) {Not Work}
-
+************************************************************************
 Mordenizer
 mordenizer.navigator - To Check browser have support geolocation
+************************************************************************
