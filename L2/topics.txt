@@ -1,6 +1,10 @@
 L2 Topics:-
 ---------
 1.Angular2 Basics
+	Basic Template
+	ngFor
+	Data Model
+	
 
 From Team:-
 ---------
