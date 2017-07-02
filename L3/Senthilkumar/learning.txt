@@ -1,1 +1,0 @@
-My Basic Angular2 Learning will go here
