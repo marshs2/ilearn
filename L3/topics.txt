@@ -1,0 +1,17 @@
+L2 Topics:-
+---------
+1.Angular2 Basics
+	Input and Output
+	Components
+	Templates, Styles and view encapsulation
+	
+
+From Team:-
+---------
+6. 
+
+Category
+--------
+Generic
+Intermediate
+Advanced

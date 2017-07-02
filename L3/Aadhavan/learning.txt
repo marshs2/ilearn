@@ -1,0 +1,133 @@
+Angular2 Basics
+
+* Official website - angular.io
+
+* angular1.... -> angularjs
+
+* angular2-> angular
+
+* angular2 is work in typescript
+
+* ecma standard the javascript 5
+
+* ecma script 6 or 2015 -> no support in browser
+
+* transpiler used to compile ecma script6
+
+* babalejs, systemjs is used to transpile(type script to javascript)
+
+* backtick is used in tags
+
+* tsc is type script compiler
+
+* typescript-> microsoft developed solution -> ecma script full support
+
+* typescript supports alo ecmascript6
+* angular maintain by google
+* typescript is opensource
+
+* angular2 is in class
+
+* js-> can't create a class, everything function in js, sudo create a class
+
+* Angular2 is functional oriented
+
+* typescript-> directly create a class and functional oriented
+
+* plnkr.co -> Create a new project
+
+* spp- one index.html, another pages load as partial(plugin)
+* assests are in single page, no need to reolad even click in single button
+
+* ajax->part of spp
+---------------------------------------------------------------------------
+   Simple program
+* base-> elimates routing problem
+* base href=. (If no href then href=.) 
+
+* if file inside folder1/folder/2/folder3/folder4/index.html then base href=folder1/folder/2/folder3/folder4/
+
+* typescript need one file to import system.js(module loaders)
+* no need to many script tag
+---------------------------------------------------------------------------
+About Files
+* config.js -> specify the component and ... 
+
+* sys.js -> important is packages
+
+* packages:{
+* main: ./main.ts
+
+* system.import('app')
+
+* chaining in js -> from output a we call another statement b. For Ex. a.b.c
+
+* angular2 used in browsers, node, with ionic for mobile
+
+* platformBrowserDynamic().bootsrapModule is chaining method
+
+* normally one module have other module and components
+
+* bootsrap -> start one program , staring for angular similar to main method for java
+
+* ./ -> current directory
+
+* component must start with capital letter
+
+* component use to directly in html
+
+* @component -> give addtional functions automatically
+   1. selector -> which name used in html
+   2. template -> to which html
+   associated with the class
+
+* Give also values or html tags with values
+
+* Must be in tree structure
+
+* multiple components in ng- module
+
+* ng-module have 
+   1. imports[] -> external imports
+   2. declarations -> declare componnts
+   3. bootstrap -> start in which component
+
+* Avoid multiple values inserting: use for loop
+---------------------------------------------------------------------------
+Javascript
+* js - 2 scopes - global,function -> inside the function
+
+* js prob: if var declared not inside function defaultly as global
+
+* If want to call global variable then use this keyword
+---------------------------------------------------------------------------
+Angular2
+* let keyword-> print variable value same as java
+
+* use only with in braces (Best practice)
+
+* use single quotes (Best practice) not to use double qoutes
+
+* use \'name to single qoute with in single quote
+
+* use {{name}} to binding
+
+* use array of object ex: games : Object[] or Aray<Object>
+
+* dom -> convert html to tree structure 
+
+* * -> use before directive when dom manipulate
+
+* *ngfor ="let game of games" 
+   it repeats from the line where declares the ngfor
+
+* event related parameters using () ex: (click)
+
+* hide - use [hiddon] property then only dom manipulate happens
+
+* hiddon, disabled - html 5 attributes
+
+* export -> use when the class used in other files
+---------------------------------------------------------------------------
+Link
+http://plnkr.co/edit/nai4k8ywOACi8emWzflf?p=info
