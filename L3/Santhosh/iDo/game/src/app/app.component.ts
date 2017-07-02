@@ -2,7 +2,7 @@ import {platformBrowserDynamic} from '@angular/platform-browser-dynamic';
 import {Component, NgModule, Input, Output, EventEmitter} from '@angular/core';
 import {BrowserModule} from '@angular/platform-browser';
 
-class Joke {
+export class Joke {
 	public setup: string;
 	public punchline: string;
 	public hide: boolean;
@@ -43,7 +43,7 @@ class Joke {
 </div>
   `
 })
-class JokeFormComponent {
+export class JokeFormComponent {
 	@Output() jokeCreated = new EventEmitter<Joke>();
 
 	createJoke(setup: string, punchline: string) {
@@ -65,7 +65,7 @@ class JokeFormComponent {
 </div>
   `
 })
-class JokeComponent {
+export class JokeComponent {
 	@Input('joke') data: Joke;
 }
 
@@ -76,7 +76,7 @@ class JokeComponent {
 <joke *ngFor="let j of jokes" [joke]="j"></joke>
   `
 })
-class JokeListComponent {
+export class JokeListComponent {
 	jokes: Joke[];
 
 	constructor() {
@@ -99,20 +99,7 @@ class JokeListComponent {
 <joke-list></joke-list>
   `
 })
-class AppComponent {
+export class AppComponent {
 }
 
-@NgModule({
-	imports: [BrowserModule],
-	declarations: [
-		AppComponent,
-		JokeComponent,
-		JokeListComponent,
-		JokeFormComponent
-	],
-	bootstrap: [AppComponent]
-})
-export class AppModule {
-}
 
-platformBrowserDynamic().bootstrapModule(AppModule);
