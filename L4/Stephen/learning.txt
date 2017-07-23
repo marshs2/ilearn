@@ -1,0 +1,174 @@
+Typescript reduces the boiler plate code
+Not that we cannot do without TS, but in Angular2 they are using it
+Can use JS also
+Overcome JS pitfalls and its the latest JS
+Typeof to find the datatype
+
+Var a;
+
+Typeof a;
+
+All datatypes in JS will be within these:-
+Bool, undefined, NaN, number, string, object, null
+
+Type	Result
+Undefined	"undefined"
+Null	"object" (see below)
+Boolean	"boolean"
+Number	"number"
+String	"string"
+Symbol (new in ECMAScript 2015)	"symbol"
+Host object (provided by the JS environment)	Implementation-dependent
+Function object (implements [[Call]] in ECMA-262 terms)	"function"
+Any other object	"object"
+
+Let gives the scope within the block
+
+Class will have separate boundary but new memory for it
+
+Let and var -> always use let
+
+Constant is a variable that has its reference fixed
+Const is also block level
+
+Observables is a new primitive type which acts as a blueprint for how we want to create streams, subscribe to them, react to new values, and combine streams together to build new ones.
+
+
+[1, 2, 3, 4, 5]
+
+Abc12
+
+[(12,34), (56,78)]
+
+Reactive Programming
+
+Function add(b, c) {
+	return b + c;
+}
+
+Var c = add(1,23); // 4
+Var d = add(2,10); // 12
+
+Real-time 
+add([data])
+
+Data = (1,24)
+
+1) First check whether
+Data changed.
+(Change Detection)
+2) Do the operation
+On the changed data
+
+Real-time Example
+—————————
+Input box -> 23
+23.00
+Input-> 45
+45.00
+Input-> 45.78
+46.78
+Input-> 45.44
+45.44
+Input-> 45.99
+46.00
+
+toFixed()
+
+On Blur of the input
+Box, do that change
+
+Input-> 2 // 4
+245 // 4810
+
+onKeyDown -> Call
+The function
+222222222
+
+———
+
+——
+RxJS - Different Framework
+That Angular Depends on.
+
+-> Observable
+
+Observable
+
+Observables is a new 
+primitive type 
+which acts as a 
+blueprint for how we
+ want to create streams,
+ subscribe to them,
+ react to new values,
+ and combine streams 
+together to build new ones.
+
+HTTP -> Data will be sent back
+
+Promise
+
+AngularJS
+————
+Request-> GET
+Immediately give response -> Promise Object 
+Dummy Placeholder for future Value
+Waiting on the Promise.
+
+Once the GET completes, I will get back the actual
+data.
+Data will be populated on the Promise.
+
+Listen object- > resolves succeeds, I have data
+Promise will reject to an error.
+
+
+Observables -> Similar to Promise
+ANY STREAM of DATA
+
+Asyn Call-> 
+
+
+Search Box-
+A
+Ashyl
+
+An
+Anne
+
+1) A
+2) An
+
+A- 1st 
+An - 2nd
+
+Anne
+Anna
+
+Ashle
+
+Cancelling is not allow
+Ansjkdakjshdk
+
+Observable
+
+1) Methods that can be chained and called
+
+Angular-> [‘valueChanges’] - form Observable
+
+http://plnkr.co/edit/5Y8SOXSzD40IUEQPCFXg?p=info
+
+Ebi DriveGood morning guys......
+10:03Ebi DriveSenthil
+10:07Ebi Drivecan u hear us
+10:07YouFirst session Santhosh - Typescript
+10:12Youhttp://www.typescriptlang.org/play/
+11:04Youhttps://www.tutorialspoint.com/try_typescript_online.php
+11:16Youhttp://fiddlesalad.com/typescript/
+11:19venky royalSorry actually we thought senthil has taking this week session so that i did n't prepare 
+12:11Ebi Driveok ma
+12:12Santhosh Guganno problem :)...have a topic ready for next session :)
+12:12venky royalok
+12:12venky royalbye all
+13:07
