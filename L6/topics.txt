@@ -1,0 +1,17 @@
+L1 Topics:-
+---------
+1. JQuery Validation - Senthil
+2. Forms - Santhosh
+3. HTTP - Stephen
+4.
+5.
+
+From Team:-
+---------
+6. 
+
+Split-up
+--------
+1, 2 - Generic
+3, 4 - Intermediate
+5 - Advanced
