@@ -1,6 +1,6 @@
 L1 Topics:-
 ---------
-1. JQuery Validation - Senthil
+1. JQuery Validation/ HTTP Angular2 - Senthil
 2. Forms - Santhosh
 3. HTTP - Stephen
 4.
